@@ -1,4 +1,4 @@
-public class BasketballNewsSubscriber implements SportNewsSubscriber {
+public class BasketballNewsSubscriber implements ISportNewsSubscriber {
     private String name;
 
     public BasketballNewsSubscriber(String name) {

@@ -1,3 +1,3 @@
-interface SportNewsSubscriber {
+interface ISportNewsSubscriber {
     void update(String newsTitle);
 }

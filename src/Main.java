@@ -2,9 +2,9 @@ public class Main {
     public static void main(String[] args) {
         SportNewsPublisher sportNewsPublisher = new SportNewsPublisher();
 
-        SportNewsSubscriber footballSubscriber1 = new FootballNewsSubscriber("Subscriber1");
-        SportNewsSubscriber footballSubscriber2 = new FootballNewsSubscriber("Subscriber2");
-        SportNewsSubscriber basketballSubscriber = new BasketballNewsSubscriber("Subscriber3");
+        ISportNewsSubscriber footballSubscriber1 = new FootballNewsSubscriber("Subscriber1");
+        ISportNewsSubscriber footballSubscriber2 = new FootballNewsSubscriber("Subscriber2");
+        ISportNewsSubscriber basketballSubscriber = new BasketballNewsSubscriber("Subscriber3");
 
         sportNewsPublisher.registerSubscriber("Football", footballSubscriber1);
         sportNewsPublisher.registerSubscriber("Football", footballSubscriber2);

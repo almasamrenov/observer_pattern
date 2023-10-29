@@ -1,4 +1,4 @@
-class FootballNewsSubscriber implements SportNewsSubscriber {
+class FootballNewsSubscriber implements ISportNewsSubscriber {
     private String name;
 
     public FootballNewsSubscriber(String name) {
